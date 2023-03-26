@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
-index.html{
+index.html {
     font-family: serif;
     font-size: 16px;
     line-height: 1.5;
@@ -37,21 +37,22 @@ nav>ul li a {
 nav>ul li a:hover {
     background: #588ac2;
 }
+
 .sisi {
     background: #4f0dad;
     overflow: hidden;
     text-align: right;
 }
 
-.sisi >ul {
+.sisi>ul {
     list-style: none;
 }
 
-.sisi >ul li {
+.sisi>ul li {
     float: left;
 }
 
-.sisi >ul li a {
+.sisi>ul li a {
     padding: 8px 150px 8px 100px;
     display: block;
     color: #ffffff;
@@ -59,64 +60,34 @@ nav>ul li a:hover {
     text-align: right;
 }
 
-.sisi >ul li a:hover {
+.sisi>ul li a:hover {
     background: #d10707;
-    
+
 }
 
+.forsee {
+    background: #656269;
+}
 
- .cocolor{
+.cocolor {
     width: 100%;
-height: 600px;
-background: rgb(181, 99, 12);
- }
+    height: 600px;
+    background: rgb(181, 99, 12);
+}
 
-header{
-width: 100%;
-height: 600px;
-background: rgb(23, 119, 193);
+header {
+    width: 100%;
+    height: 600px;
+    background: rgb(23, 119, 193);
 
 }
 
-.index_titul h1{
+.index_titul h1 {
     font-size: 60px;
     color: rgb(0, 0, 0);
 }
-.index_titul h3{
-font-size: 25px;
-color: rgb(255, 255, 255);
+
+.index_titul h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
