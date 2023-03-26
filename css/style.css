@@ -37,10 +37,38 @@ nav>ul li a {
 nav>ul li a:hover {
     background: #588ac2;
 }
+.sisi {
+    background: #4f0dad;
+    overflow: hidden;
+    text-align: right;
+}
+
+.sisi >ul {
+    list-style: none;
+}
+
+.sisi >ul li {
+    float: left;
+}
+
+.sisi >ul li a {
+    padding: 8px 150px 8px 100px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+}
+
+.sisi >ul li a:hover {
+    background: #d10707;
+}
 
 
-
- 
+ .cocolor{
+    width: 100%;
+height: 600px;
+background: rgb(181, 99, 12);
+ }
 
 header{
 width: 100%;
