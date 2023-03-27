@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Actividad 01</title>
+    <link rel="stylesheet" href="css/act1.css">
 </head>
+
 <body>
     <header class="cocolor">
         <nav class="sisi">
@@ -18,12 +20,100 @@
         </nav>
         <section class="index_titul">
             <center>
-                <h1>si sirveee sapaaaaa</h1>
+                <h1>Talleres de poesia</h1>
                 <br><br>
-                <h3>si hace algo solo le falta fe</h3>
-                <h3>ve a la iglesia</h3>
+                <h3>Para tener un año diferente dentro del arte</h3>
+                <h3>y</h3>
+                <h3>la felicidad familiar</h3>
             </center>
         </section>
     </header>
+    <main>
+        <section>
+            <center>
+                <h1>¿Cuales telleres?</h1>
+            </center>
+            <p>llevamos a cabo una serie de talleres y simposios de poesia
+                durante todo el año
+            </p>
+            <br>
+            <p>
+                Tenga en cuenta que los siguientes eventos son gratuitos
+                para los miembros de nivel gold dentro de Dago´s.sa
+            </p>
+
+        </section>
+        <section>
+            <div>
+                <ul>
+                    <li href="#clasic">Poesia clasica</li>
+                    <li href="#magic">Realismo magico</li>
+                    <li href="#litnada">Obras de nadaismo</li>
+                </ul>
+
+            </div>
+            <div>
+                <table>
+                    <tr class="head">
+                        <th></th>
+                        <th>Bogota</th>
+                        <th>Medellin</th>
+                        <th>Pereira</th>
+                        <th>cartagena</th>
+                    </tr>
+                    <br>
+                    <tr id="clasic">
+                        <th>Poesia clasica</th>
+                        <td>sab,04 mar 2023 <br>6pm - 8pm</td>
+                        <td>lun,05 abr 2023 <br>6pm -8am</td>
+                        <td>sab,06 may 2023 <br>3pm - 5am</td>
+                    </tr>
+                    <br><br>
+                    <tr class="even">
+                        <th>Realismo magico</th>
+                        <td>sab,28 mar 2023 <br>11am - 1pm</td>
+                        <td>lun,11 abr 2023 <br>12am -2am</td>
+                        <td>sab,23 may 2023 <br>1pm - 3am</td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <th>Obras de nadaismo</th>
+                        <td>sab,23 mar 2023 <br>10am - 11am</td>
+                        <td>lun,18 abr 2023 <br>10am -12am</td>
+                        <td>sab,18 may 2023 <br>10am - 3am</td>
+                    </tr>
+                    <tr class="even">
+                        <th>Nuevas corrientes</th>
+                        <td>sab,28 mar 2023 <br>5pm - 7pm</td>
+                        <td>lun,11 abr 2023 <br>7pm -9pm</td>
+                        <td>sab,23 may 2023 <br>6pm - 12am</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <br><br><br>
+    <hr color="#8546" size="3px">
+    <form action="Activ2.html" method="get">
+        <fieldset>
+            <legend>Registrese en el Taller de su interes</legend>
+            <p><label for="name">Su Nombre</label></p>
+<input type="text" name="name">
+            <p><label for="email">Su correo</label></p>
+<p><label for="location">ciudad a la cual asistira</label></p>
+<select name="location" id="location">
+    <option value="Bo">Bogota</option>
+    <option value="Med">Medellin</option>
+    <option value="Per">Pereira</option>
+    <option value="Cart">cartagena</option>
+</select>
+<span class="title">Es miembro de la comunidad? </span>
+<label ><input type="radio" name="menber" value="si">Si</label>
+<label ><input type="radio" name="menber" value="No">No</label>
+
+        </fieldset>
+        <div class="submit"><input type="submit" value="Registro"></div>
+    </form>
 </body>
+
 </html>
