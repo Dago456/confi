@@ -28,8 +28,9 @@ a:hover{
     width: 100%;
     z-index: 50;
 }
+
 nav {
-    background: #2f67b1;
+    background: rgb(34, 47, 130);
     overflow: hidden;
     text-align: right;
 }
@@ -43,15 +44,11 @@ nav>ul li {
 }
 
 nav>ul li a {
-    padding: 8px 150px 8px 100px;
+    padding: 8px 100px 8px 70px;
     display: block;
     color: #ffffff;
     text-decoration: none;
     text-align: right;
-}
-
-nav>ul li a:hover {
-    background: #588ac2;
 }
 .nav{
     float: right;
