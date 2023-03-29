@@ -1,10 +1,38 @@
+*{
+    margin: 0;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     color: #666;
-    background-color: #f8f8f8;
+    background-color: #000000;
+}
+.sisi {
+    background: #a6a357;
+    overflow: hidden;
+    text-align: right;
 }
 
+.sisi>ul {
+    list-style: none;
+}
+
+.sisi>ul li {
+    float: left;
+}
+
+.sisi>ul li a {
+    padding: 8px 80px 8px 80px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    text-align: right;
+}
+
+.sisi>ul li a:hover {
+    background: #000000;
+ color: #cbd2d8;
+}
 li {
     list-style-image: url;
     line-height: 1.6em;
@@ -21,25 +49,25 @@ td {
     border-spacing: 0px;
     font-size: 90%;
     text-align: left;
-    background-color: #e0e9f0;
-    border-bottom: 1px solid #cbd2d8;
+    background-color: #0a3980;
+    border-bottom: 1px solid #ffffff;
     border-right: 1px solid #cbd2d8;
     margin: 0px;
 }
 th.head th {
-    color: #fff;
-    background-color: #90b4d6;
+    color: #b71d1d;
+    background-color: #0b4a85;
     border-bottom: 20px solid #547ca0;
-    border-right: 1px solid #90b4d6;
+    border-right: 1px solid #0e304f;
     text-align: center;
     text-shadow:  -1px -1px 1px #666666;
     letter-spacing: 0.15em;
 }
 
-td{text-shadow: 1px 1px 1px #ffffff;}
+td{text-shadow: 1px 1px 1px #9e2424;}
 
 tr.even td, tr.even th{
-    background-color: #547ca0;
+    background-color: #054175;
 } 
 tr.even th:first-child{
     -webkit-border-top-left-radius:5px ;
@@ -54,32 +82,32 @@ tr.even th:last-child{ -webkit-border-top-left-radius:5px ;
 fieldset{
     width: 310px;
     margin-top: 20px;
-    border: 1pxsolid #d6d6d6;
-    background-color: #ffffff;
+    border: 1pxsolid #000000;
+    background-color: #000000;
     line-height: 1,6em;
 }
 
 legend{
     font-style: italic;
-    color: #777;
+    color: #ffffff;
 }
 input:focus, input :hover{
-    background-color: #547ca0;
-    border: 1px solid#006633;
+    background-color: #ffffff;
+    border: 1px solid#06723c;
 }
 
 input{
-    order: 1px solid#006633;
-    background-color: #547ca0;
-    color: #777;
+    order: 1px solid#0d1ca5;
+    background-color: #054782;
+    color: #ffffff;
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
 }
 input:hover{
-    border: 1px solid #547;
-    background-color: #90b4d6;
-color: #547ca0;
+    border: 1px solid rgb(57, 9, 153);
+    background-color: #ffffff;
+color: #000000;
 cursor: pointer;
 }
 

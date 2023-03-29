@@ -44,32 +44,7 @@ nav>ul li a:hover {
     background: #2d6898a5;
 }
 
-.sisi {
-    background: #4f0dad;
-    overflow: hidden;
-    text-align: right;
-}
 
-.sisi>ul {
-    list-style: none;
-}
-
-.sisi>ul li {
-    float: left;
-}
-
-.sisi>ul li a {
-    padding: 8px 150px 8px 100px;
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: right;
-}
-
-.sisi>ul li a:hover {
-    background: #d10707;
-
-}
 
 .forsee {
     background: #353333;

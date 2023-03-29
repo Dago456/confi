@@ -3,7 +3,7 @@ header section aside nav article figure figcaption {
 }
 body{
     color: black;
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
     background-image: url(´../images/dark-wood.jpg´);
     background-position: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -13,14 +13,8 @@ body{
 .wrapper{
     width: 940px;
     margin: 20px auto 20px auto;
-    border: 2px solid salmon;
-    background-color: violet;
-}
-
-@fuckit
-header{
-    height: 160px;
-    background-image: url(..img/header-yokos);
+    border: 2px solid rgb(29, 78, 174);
+    background-color: rgb(0, 0, 0);
 }
 
 h1{
@@ -30,9 +24,9 @@ h1{
     margin: 0px;
 }
 
-nav footer{
-color: #353333;
-background-color: aqua;
+nav {
+color: #9c1d1d;
+background-color: rgb(0, 0, 0);
 height: 30px;
     clear: both;
 }
@@ -54,15 +48,13 @@ nav li a :hover nav li a.current{
 
 section.courses{
     float: left;
-    width: 659px;
     border-right: 1px solid slateblue;
 }
-
-article{
-    clear: both;
-    overflow: auto;
-    width: 100%;
+p{
+    color: #fff;
+    border-right: 200px;
 }
+
 hgroup{
     margin-top: 40px;
 }
@@ -92,7 +84,7 @@ aside section a{
 }
 aside section a:hover{
     color: plum;
-    background-color: teal;
+    background-color: rgb(25, 89, 171);
 }
 a{
     color: lightslategrey;
@@ -104,10 +96,11 @@ h1 h2 h3 {
 h2 {
     margin: 10px 0 10px 0;
     padding: 0;
+    color:#fff;
 }
 h3{
     margin: 30px 0 10px 0;
-    color: royalblue;
+    color: rgb(135, 132, 132);
 }
 
 aside h2{
